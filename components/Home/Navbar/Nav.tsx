@@ -29,7 +29,7 @@ const Nav = ({ openNav }: Props) =>
                     <FaPlane className='w-6 h-6 text-[#014421]'/>
                 </div>
                 <h1 className='text-xl md:text-2xl text-white uppercase font-bold'>
-                    Adventuro
+                    Aventuro
                 </h1>
             </div>
             {/* Navigation tabs*/}
