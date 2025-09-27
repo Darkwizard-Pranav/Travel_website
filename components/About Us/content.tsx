@@ -40,7 +40,7 @@ export function AboutContent() {
                 destination, but about the journey itself and the experiences that shape us along the way.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed">
-                From humble beginnings as a small travel agency, we've grown into a comprehensive travel platform that
+                From humble beginnings as a small travel agency, we&apos;ve grown into a comprehensive travel platform that
                 serves thousands of adventurers worldwide, always maintaining our commitment to personalized service and
                 authentic experiences.
               </p>
