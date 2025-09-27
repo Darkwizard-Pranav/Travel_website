@@ -1,7 +1,7 @@
 "use client";
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-
+import Image from "next/image";
 interface BlogPost {
   id: number
   title: string
@@ -24,7 +24,8 @@ export function BlogCard({ post, featured = false }: BlogCardProps) {
       <Card className="overflow-hidden border-0 shadow-none bg-transparent">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
-            <img src={post.image || "/placeholder.svg"}
+            <Image src={post.image || "/placeholder.svg"}
+            width={1000} height={1000}
               alt={post.title}
               className="object-cover w-full h-full hover:scale-105 transition-transform duration-700"
             />
@@ -63,8 +64,9 @@ export function BlogCard({ post, featured = false }: BlogCardProps) {
     <Card className="overflow-hidden border-0 shadow-none bg-transparent group cursor-pointer">
       <div className="space-y-4">
         <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
-          <img
+          <Image
             src={post.image}
+            width={500} height={1000}
             alt={post.title}
             className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700"
           />

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaHeart } from 'react-icons/fa';
-
+import Image from "next/image";
 type Props ={
     hotel:{
     id: number;
@@ -25,7 +25,7 @@ const HotelCard = ({hotel}:Props) => {
          {/*overlay*/}
          <div className='absolute inset-0 bg-black opacity-20 z-10'></div>
          {/*image*/}
-         <img src={hotel.image} alt={hotel.title} width={500} height={500} className='overflow-hidden 
+         <Image src={hotel.image} alt={hotel.title} width={500} height={500} className='overflow-hidden 
          h-full w-full transition-all duration-300 object-cover group-hover:scale-110'/>
     </div>
     {/*Content*/}

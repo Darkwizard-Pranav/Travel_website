@@ -1,6 +1,7 @@
 "use client";
 import { destinationData } from '@/data/data';
-import React from 'react'
+import React from 'react';
+import Image from "next/image";
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -32,7 +33,7 @@ const DestinationSlider = () => {
                 {/*Image overlay*/}
                 <div className='absolute inset-0 bg-black opacity-25 rounded-lg'></div>
                 {/*Actual Image*/}
-                <img src={data.image} alt={data.country} width={500} height={500} 
+                <Image src={data.image} alt={data.country} width={500} height={500} 
                 className="h-full w-full object-cover rounded-lg" />
                 
             </div>

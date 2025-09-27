@@ -1,9 +1,8 @@
 "use client";
 import { navLinks } from '@/constants/constants'
-import { link } from 'fs'
 import Link from 'next/link'
 import React, { useEffect, useState} from 'react'
-import { FaPlane, FaUmbrellaBeach } from 'react-icons/fa'
+import { FaPlane } from 'react-icons/fa'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 
 type Props = {

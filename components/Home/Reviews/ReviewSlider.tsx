@@ -7,7 +7,7 @@ import "swiper/css/effect-cards"
 import { EffectCards } from 'swiper/modules'
 import { reviewData } from '@/data/data'
 import { FaStar } from 'react-icons/fa';
-
+import Image from "next/image";
 const ReviewSlider = () => {
   return (
     <div>
@@ -32,7 +32,7 @@ const ReviewSlider = () => {
                             {/*users*/}
                             <div className='mt-10'>
                                 <div className='flex items-center space-x-4'>
-                                    <img src={data.image} width={60} height={60} alt="client" 
+                                    <Image src={data.image} width={60} height={60} alt="client" 
                                     className='rounded-full'/>
                                     <div>
                                         <p>{data.name}</p>

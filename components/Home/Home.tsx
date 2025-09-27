@@ -4,7 +4,6 @@ import Destination from './Destination/Destination';
 import Hotel from './Hotel/Hotel';
 import WhyChoose from './WhyChoose/WhyChoose';
 import Reviews from './Reviews/Reviews';
-import Footer from './Footer/Footer';
 
 const Home = () => {
   return (
