@@ -49,7 +49,7 @@ const Nav = ({ openNav }: Props) =>
             </div>
                 {/* Book button */}
                 <div className='flex items-center space-x-4'>
-                    <Link href="https://wanderlust-i42t.onrender.com/listings">
+                    <Link href="https://aventuro.onrender.com/listings">
                     <button className='md:px-12 md:py-2.5 px-8 py-2 text-black text-base bg-white hover:bg-gray-400 
                     transition-all duration-200 rounded-lg'>
                         Book Now
